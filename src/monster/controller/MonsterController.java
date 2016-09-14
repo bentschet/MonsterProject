@@ -8,7 +8,7 @@ public class MonsterController
 	
 	public MonsterController()
 	{
-		firstMonster = new MarshmallowMonster("KAJ", 4, 2, );
+		firstMonster = new MarshmallowMonster("KAJ", 4, 2, 1, 1, true);
 	}
 	
 	public void start()
