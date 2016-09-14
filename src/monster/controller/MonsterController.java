@@ -19,6 +19,7 @@ public class MonsterController
 		System.out.println("Kareem has no arms. This is proof: " + firstMonster.getarmCount());
 		System.out.println("Kareem's skin is not green: " + firstMonster.gethasGreenSkin());
 		System.out.println("Kareem has this many eyes: " + firstMonster.geteyeCount()) ;
+		System.out.println("Does Kareem have green skin?" + firstMonster.gethasGreenSkin());
 	}
 }
 
