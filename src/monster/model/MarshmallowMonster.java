@@ -79,6 +79,6 @@ public int geteyeCount()
  * has four legs
  * has no arms
  * has two eyes
- * has one antenna
+ * does not have green skin
  *  
  */
