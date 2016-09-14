@@ -81,5 +81,4 @@ public int geteyeCount()
  * has two eyes
  * has one antenna
  *  
- * 
  */
