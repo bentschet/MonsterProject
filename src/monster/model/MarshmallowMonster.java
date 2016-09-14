@@ -21,7 +21,7 @@ public class MarshmallowMonster
 	}
 	
 	public MarshmallowMonster(String KareemAbdulJabar, int legCount, int armCount, int i,
-							  int j, boolean b)
+							  int j, boolean hasUnicycle, int eyeCount)
 	{
 		this.KareemAbdulJabar = KareemAbdulJabar;
 		this.legCount = 4;
@@ -31,7 +31,48 @@ public class MarshmallowMonster
 		this.eyeCount = 2;
 		
 	}
+	
+	public String toString()
+	{
+		String information = "Monster says: My name is " + KareemAbdulJabar;
+		
+		return information;
+	}
+
+
+public String KareemAbdulJabar()
+{
+	return KareemAbdulJabar;
 }
+
+public int getlegCount()
+{
+	return legCount;
+}
+
+public int getarmCount()
+{
+	return armCount;
+}
+
+public boolean gethasGreenSkin()
+{
+	return hasGreenSkin;
+}
+
+public boolean gethasUnicycle()
+{
+	return hasUnicycle;
+}
+
+public int geteyeCount()
+{
+	return eyeCount;
+}
+
+}
+
+
 
 /*
  * monster name is Kareem-Abdul Jabbar
